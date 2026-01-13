@@ -1,0 +1,13 @@
+# Data Manipulation
+pandas
+numpy
+
+# Machine Learning & Preprocessing
+scikit-learn
+
+# Deep Learning (ANN)
+tensorflow
+keras
+
+# Visualization
+matplotlib

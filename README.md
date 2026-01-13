@@ -6,15 +6,15 @@ This project implements a dual-model approach to analyze telecommunications cust
 
 ## 🚀 Project Overview
 The analysis follows a structured pipeline:
-1. [cite_start]**Data Inspection:** Initial analysis of a 7000+ record dataset including tenure, contract types, and monthly charges.
-2. [cite_start]**Preprocessing:** Specialized handling of `totalCharges` (conversion from object to numeric) and implementation of One-Hot Encoding and Standard Scaling to prevent data leakage.
+1. **Data Inspection:** Initial analysis of a 7000+ record dataset including tenure, contract types, and monthly charges.
+2. **Preprocessing:** Specialized handling of `totalCharges` (conversion from object to numeric) and implementation of One-Hot Encoding and Standard Scaling to prevent data leakage.
 3. **Regression Analysis:** - **Decision Tree Regressor:** Used for baseline predictive modeling.
-   - [cite_start]**Artificial Neural Network (ANN):** A multi-layer deep learning model built with Keras/TensorFlow to capture non-linear patterns.
+   - **Artificial Neural Network (ANN):** A multi-layer deep learning model built with Keras/TensorFlow to capture non-linear patterns.
 
 ## 📊 Key Results
 - Successfully handled missing data (NaN) through post-split imputation.
 - Achieved predictive results visualized through "Actual vs. Predicted" scatter plots for the ANN regression model.
-- [cite_start]Established a robust 80/20 train-test split for model validation.
+- Established a robust 80/20 train-test split for model validation.
 
 ## 🛠️ Installation & Usage
 To replicate this environment, clone the repository and install the dependencies:
